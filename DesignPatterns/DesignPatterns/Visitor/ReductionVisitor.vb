@@ -1,4 +1,4 @@
-﻿Imports POCVB.Car
+﻿Imports DesignPatterns.Car
 
 Namespace Visitor
     Public Class ReductionVisitor : Implements CarElementVisitor
@@ -9,8 +9,9 @@ Namespace Visitor
         End Sub
 
         Public Sub Visit(element As CarElement) Implements CarElementVisitor.Visit
-            Dim elementPrice = element.GetPrice
-            element.SetPrice(elementPrice * Sale)
+            Dim elementPrice As Integer = element.GetPrice
+            Dim reducedPrice As Integer = CInt(elementPrice * Sale)
+            element.SetPrice(reducedPrice)
         End Sub
 
         Public Sub Visit(car As Car.Car) Implements CarElementVisitor.Visit

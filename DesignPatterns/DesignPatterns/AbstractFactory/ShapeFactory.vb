@@ -1,5 +1,5 @@
-﻿Imports POCVB.Flyweight
-Imports POCVB.Shapes
+﻿Imports DesignPatterns.Flyweight
+Imports DesignPatterns.Shapes
 
 Namespace AbstractFactory
     Public Class ShapeFactory : Implements Factory
@@ -14,7 +14,7 @@ Namespace AbstractFactory
             CircleFactory = New CircleFlyweight()
         End Sub
 
-        Public Function GetShape(shapeType As String) As Object Implements Factory.GetShape
+        Public Function GetShape(shapeType As String) As Shape Implements Factory.GetShape
             If RECTANGLE.Equals(shapeType.ToLower) Then
                 Return RectangleFactory.GetRectangle(0, 0)
             ElseIf CIRCLE.Equals(shapeType.ToLower) Then

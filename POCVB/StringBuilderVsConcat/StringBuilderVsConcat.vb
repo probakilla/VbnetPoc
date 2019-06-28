@@ -28,7 +28,9 @@ Namespace StrnigVsConcat
             Dim testString As String = String.Empty
             stopwatch.Start()
             For i = 0 To NbIter
+#Disable Warning S1643 ' Strings should not be concatenated using "+" or "&" in a loop
                 testString &= CONCAT_TEXT
+#Enable Warning S1643 ' Strings should not be concatenated using "+" or "&" in a loop
             Next
             stopwatch.Stop()
             Return stopwatch

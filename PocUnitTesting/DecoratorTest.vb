@@ -1,6 +1,6 @@
 ﻿Imports Microsoft.VisualStudio.TestTools.UnitTesting
-Imports POCVB.Characters
-Imports POCVB.Decorator
+Imports DesignPatterns.Characters
+Imports DesignPatterns.Decorator
 
 Namespace PocUnitTesting
     <TestClass>

@@ -1,6 +1,6 @@
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
-Imports POCVB.AbstractFactory
-Imports POCVB.Shapes
+Imports DesignPatterns.AbstractFactory
+Imports DesignPatterns.Shapes
 
 Namespace PocUnitTesting
     <TestClass>

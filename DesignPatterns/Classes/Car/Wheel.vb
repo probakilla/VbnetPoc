@@ -1,6 +1,4 @@
-﻿Imports POCVB.Visitor
-
-Namespace Car
+﻿Namespace Car
     Public Class Wheel : Inherits AbstractCarElement
         Private Property Name As String
 

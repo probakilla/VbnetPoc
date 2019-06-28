@@ -1,4 +1,4 @@
-﻿Imports POCVB.Shapes
+﻿Imports DesignPatterns.Shapes
 
 Namespace Flyweight
     Public Class CircleFlyweight

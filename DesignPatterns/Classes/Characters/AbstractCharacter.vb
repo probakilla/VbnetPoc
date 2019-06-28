@@ -1,4 +1,4 @@
-﻿Imports POCVB.State
+﻿Imports DesignPatterns.State
 
 Namespace Characters
     Public MustInherit Class AbstractCharacter : Implements Character

@@ -1,4 +1,4 @@
-﻿Imports POCVB.Characters
+﻿Imports DesignPatterns.Characters
 
 Namespace Decorator
     Public Class BuffedCharacter : Inherits AbstractDecorator

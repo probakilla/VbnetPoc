@@ -1,4 +1,4 @@
-﻿Imports POCVB.Visitor
+﻿Imports DesignPatterns.Visitor
 
 Namespace Car
     Public Interface CarElement

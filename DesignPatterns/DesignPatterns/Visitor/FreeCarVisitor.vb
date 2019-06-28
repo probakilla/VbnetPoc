@@ -1,4 +1,4 @@
-﻿Imports POCVB.Car
+﻿Imports DesignPatterns.Car
 
 Namespace Visitor
     Public Class FreeCarVisitor : Implements CarElementVisitor

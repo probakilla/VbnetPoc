@@ -1,6 +1,6 @@
 ﻿Imports Microsoft.VisualStudio.TestTools.UnitTesting
-Imports POCVB.Car
-Imports POCVB.Visitor
+Imports DesignPatterns.Car
+Imports DesignPatterns.Visitor
 
 Namespace PocUnitTesting
     <TestClass>

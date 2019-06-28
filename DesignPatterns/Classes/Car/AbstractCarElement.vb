@@ -1,4 +1,4 @@
-﻿Imports POCVB.Visitor
+﻿Imports DesignPatterns.Visitor
 
 Namespace Car
     Public MustInherit Class AbstractCarElement : Implements CarElement

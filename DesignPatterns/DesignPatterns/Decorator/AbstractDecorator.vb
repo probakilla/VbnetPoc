@@ -1,5 +1,5 @@
-﻿Imports POCVB.Characters
-Imports POCVB.State
+﻿Imports DesignPatterns.Characters
+Imports DesignPatterns.State
 
 Namespace Decorator
     Public MustInherit Class AbstractDecorator : Implements Character
@@ -12,7 +12,7 @@ Namespace Decorator
         Public MustOverride Function GetHp() As Integer Implements Character.GetHp
 
         Public Function Attack() As Integer Implements Character.Attack
-            DecoratedCharacter.Attack()
+            Return DecoratedCharacter.Attack()
         End Function
 
         Public Sub EquipWeapon(weapon As WeaponState) Implements Character.EquipWeapon

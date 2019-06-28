@@ -14,6 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClassVsStructure\ClassVsStructure.vbproj" />
+    <ProjectReference Include="..\DesignPatterns\DesignPatterns.vbproj" />
     <ProjectReference Include="..\POCVB\POCVB.vbproj" />
   </ItemGroup>
 
