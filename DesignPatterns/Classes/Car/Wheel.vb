@@ -1,6 +1,6 @@
 ﻿Namespace Car
     Public Class Wheel : Inherits AbstractCarElement
-        Private Property Name As String
+        Private Name As String
 
         Public Sub New(name As String, price As Integer)
             MyBase.New(price)

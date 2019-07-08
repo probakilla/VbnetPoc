@@ -1,8 +1,8 @@
 ﻿Imports DesignPatterns.Visitor
 
 Namespace Car
-    Public Interface CarElement
-        Sub Accept(visitor As CarElementVisitor)
+    Public Interface ICarElement
+        Sub Accept(visitor As ICarElementVisitor)
         Function GetPrice() As Integer
         Sub SetPrice(price As Integer)
     End Interface

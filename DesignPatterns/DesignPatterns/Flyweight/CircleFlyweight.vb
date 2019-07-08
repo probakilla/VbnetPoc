@@ -2,7 +2,7 @@
 
 Namespace Flyweight
     Public Class CircleFlyweight
-        Private Property CircleMap As Dictionary(Of String, Circle)
+        Private CircleMap As Dictionary(Of String, Circle)
 
         Public Sub New()
             CircleMap = New Dictionary(Of String, Circle)

@@ -10,7 +10,7 @@ Namespace PocUnitTesting
         Private Const LgSwordAtk As Integer = 25
         Private Const HammerAtk As Integer = 50
 
-        Private Property CharacterFixture As Character
+        Private CharacterFixture As ICharacter
         <TestInitialize>
         Public Sub SetUp()
             CharacterFixture = New Human("Bobby", 90)

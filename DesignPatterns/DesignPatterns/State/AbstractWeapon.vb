@@ -1,6 +1,6 @@
 ﻿Namespace State
     Public MustInherit Class AbstractWeapon : Implements WeaponState
-        Private Property AttackPower As Integer
+        Private AttackPower As Integer
 
         Public Sub New(power As Integer)
             AttackPower = power

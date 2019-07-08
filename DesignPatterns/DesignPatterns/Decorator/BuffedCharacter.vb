@@ -2,9 +2,9 @@
 
 Namespace Decorator
     Public Class BuffedCharacter : Inherits AbstractDecorator
-        Private Property HpBuff As Integer
+        Private HpBuff As Integer
 
-        Public Sub New(character As Character, hpBuff As Integer)
+        Public Sub New(character As ICharacter, hpBuff As Integer)
             MyBase.New(character)
             Me.HpBuff = hpBuff
         End Sub

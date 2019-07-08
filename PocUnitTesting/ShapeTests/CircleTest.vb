@@ -9,35 +9,35 @@ Namespace PocUnitTesting
 
         <TestMethod>
         Sub TestZeroCircle()
-            Dim circle As Shape = New Circle(0)
+            Dim circle As IShape = New Circle(0)
             Assert.AreEqual(circle.Draw(), DefaultCircleDraw)
         End Sub
 
         <TestMethod>
         Sub TestPositiveValue()
             Dim positiveValue As Integer = 100
-            Dim circle As Shape = New Circle(positiveValue)
+            Dim circle As IShape = New Circle(positiveValue)
             Assert.AreEqual(circle.Draw(), GetCircleDrawString(positiveValue))
         End Sub
 
         <TestMethod>
         Sub TestNegativeValue()
             Dim negativeInteger As Integer = -100
-            Dim circle As Shape = New Circle(negativeInteger)
+            Dim circle As IShape = New Circle(negativeInteger)
             Assert.AreEqual(circle.Draw(), GetCircleDrawString(negativeInteger))
         End Sub
 
         <TestMethod>
         Sub TestMaxInteger()
             Dim maxInteger As Integer = Int32.MaxValue
-            Dim circle As Shape = New Circle(maxInteger)
+            Dim circle As IShape = New Circle(maxInteger)
             Assert.AreEqual(circle.Draw(), GetCircleDrawString(maxInteger))
         End Sub
 
         <TestMethod>
         Sub TestMinInteger()
             Dim minInteger As Integer = Int32.MinValue
-            Dim circle As Shape = New Circle(minInteger)
+            Dim circle As IShape = New Circle(minInteger)
             Assert.AreEqual(circle.Draw(), GetCircleDrawString(minInteger))
         End Sub
 

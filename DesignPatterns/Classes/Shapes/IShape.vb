@@ -1,5 +1,5 @@
 ﻿Namespace Shapes
-    Public Interface Shape
+    Public Interface IShape
         Function Draw() As String
     End Interface
 End Namespace

@@ -5,7 +5,7 @@ Imports DesignPatterns.Decorator
 Namespace PocUnitTesting
     <TestClass>
     Public Class DecoratorTest
-        Private Property CharacterFixture As Character
+        Private CharacterFixture As ICharacter
         Private Const BaseHp As Integer = 100
 
         <TestInitialize>

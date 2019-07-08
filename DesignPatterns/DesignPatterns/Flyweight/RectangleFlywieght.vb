@@ -2,7 +2,7 @@
 
 Namespace Flyweight
     Public Class RectangleFlywieght
-        Private Property RectangleMap As Dictionary(Of String, Rectangle)
+        Private RectangleMap As Dictionary(Of String, Rectangle)
 
         Public Sub New()
             RectangleMap = New Dictionary(Of String, Rectangle)

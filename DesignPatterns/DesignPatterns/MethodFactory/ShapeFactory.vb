@@ -1,10 +1,10 @@
 ﻿Imports DesignPatterns.Flyweight
 Imports DesignPatterns.Shapes
 
-Namespace AbstractFactory
-    Public Class ShapeFactory : Implements Factory
-        Private Property RectangleFactory As RectangleFlywieght
-        Private Property CircleFactory As CircleFlyweight
+Namespace MethodFactory
+    Public Class ShapeFactory : Implements IFactory
+        Private RectangleFactory As RectangleFlywieght
+        Private CircleFactory As CircleFlyweight
 
         Private Const RECTANGLE = "rectangle"
         Private Const CIRCLE = "circle"
@@ -14,7 +14,7 @@ Namespace AbstractFactory
             CircleFactory = New CircleFlyweight()
         End Sub
 
-        Public Function GetShape(shapeType As String) As Shape Implements Factory.GetShape
+        Public Function GetShape(shapeType As String) As IShape Implements IFactory.GetShape
             If RECTANGLE.Equals(shapeType.ToLower) Then
                 Return RectangleFactory.GetRectangle(0, 0)
             ElseIf CIRCLE.Equals(shapeType.ToLower) Then

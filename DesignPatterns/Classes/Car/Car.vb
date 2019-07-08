@@ -2,10 +2,10 @@
 
 Namespace Car
     Public Class Car
-        Private Property CarElements As List(Of CarElement)
+        Private CarElements As List(Of ICarElement)
 
         Public Sub New()
-            CarElements = New List(Of CarElement) From
+            CarElements = New List(Of ICarElement) From
                 {
                 New Wheel("front left", 100),
                 New Wheel("front right", 100),
@@ -15,7 +15,7 @@ Namespace Car
             }
         End Sub
 
-        Public Function GetElements() As List(Of CarElement)
+        Public Function GetElements() As List(Of ICarElement)
             Return CarElements
         End Function
 
@@ -27,7 +27,7 @@ Namespace Car
             Return totalPrice
         End Function
 
-        Public Sub Accept(visitor As CarElementVisitor)
+        Public Sub Accept(visitor As ICarElementVisitor)
             visitor.Visit(Me)
         End Sub
     End Class

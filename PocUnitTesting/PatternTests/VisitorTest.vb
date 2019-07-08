@@ -5,7 +5,7 @@ Imports DesignPatterns.Visitor
 Namespace PocUnitTesting
     <TestClass>
     Public Class VisitorTest
-        Private Property carFixture As Car
+        Private carFixture As Car
 
         <TestInitialize>
         Public Sub SetUp()

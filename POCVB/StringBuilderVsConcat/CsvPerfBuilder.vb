@@ -3,13 +3,13 @@ Imports System.Text
 
 Namespace StrnigVsConcat
     Public Class CsvPerfBuilder
-        Private Property IterationStep As Integer
-        Private Property MaxIterations As Integer
-        Private Property CsvScaleStringBuilder As StringBuilder
-        Private Property CvsConcatMethodStringBuilder As StringBuilder
-        Private Property CvsConcatOperatorStringBuilder As StringBuilder
-        Private Property CvsStringBuilderStringBuilder As StringBuilder
-        Private Property TransposedCsvStringBuilder As StringBuilder
+        Private IterationStep As Integer
+        Private MaxIterations As Integer
+        Private CsvScaleStringBuilder As StringBuilder
+        Private CvsConcatMethodStringBuilder As StringBuilder
+        Private CvsConcatOperatorStringBuilder As StringBuilder
+        Private CvsStringBuilderStringBuilder As StringBuilder
+        Private TransposedCsvStringBuilder As StringBuilder
         Private Const FileName As String = "C:\Users\frndourpa\Desktop\results.csv"
 
         Public Sub New(iterationStep As Integer, maxIterations As Integer)
