@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.Singleton
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.CreationalTest
     <TestClass>
     Public Class SingletonTest
         Private calculator As CalculatorSingleton

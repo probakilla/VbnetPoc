@@ -2,7 +2,7 @@
 Imports DesignPatterns.AbstractFactory
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.CreationalTest
     <TestClass>
     Public Class AbstractFactoryTest
         <TestMethod>

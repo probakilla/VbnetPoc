@@ -2,7 +2,7 @@
 Imports DesignPatterns.Proxy
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.StructuralTest
     <TestClass>
     Public Class ProxyTest
         Private Proxy As IConnection

@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.Adapter
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.StructuralTest
     <TestClass>
     Public Class AdapterTest
         <TestMethod>

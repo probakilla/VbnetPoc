@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.Prototype
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.CreationalTest
     <TestClass>
     Public Class PrototypeTest
         Private Const WaterStr = "water"

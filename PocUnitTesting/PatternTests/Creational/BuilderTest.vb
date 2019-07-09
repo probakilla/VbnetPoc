@@ -2,7 +2,7 @@
 Imports DesignPatterns.Builder
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.CreationalTest
     <TestClass>
     Public Class BuilderTest
         Private Function BuildDocument(builder As IBuilder) As String

@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.Composite
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.StructuralTest
     <TestClass>
     Public Class CompositeTest
         <TestMethod>

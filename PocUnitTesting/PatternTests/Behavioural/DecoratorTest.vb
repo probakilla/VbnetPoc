@@ -2,7 +2,7 @@
 Imports DesignPatterns.Characters
 Imports DesignPatterns.Decorator
 
-Namespace PocUnitTesting
+Namespace DesignPattern.BehaviouralTest
     <TestClass>
     Public Class DecoratorTest
         Private CharacterFixture As ICharacter

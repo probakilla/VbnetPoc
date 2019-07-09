@@ -2,7 +2,7 @@
 Imports DesignPatterns.Characters
 Imports DesignPatterns.State
 
-Namespace PocUnitTesting
+Namespace DesignPattern.BehaviouralTest
     <TestClass>
     Public Class StateTest
         Private Const BaseAtk As Integer = 1

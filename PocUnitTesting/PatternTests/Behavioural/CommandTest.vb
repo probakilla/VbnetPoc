@@ -2,7 +2,7 @@
 Imports DesignPatterns.Command
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.BehaviouralTest
     <TestClass>
     Public Class CommandTest
         <TestMethod>

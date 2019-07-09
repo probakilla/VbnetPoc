@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.Bridge
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.StructuralTest
     <TestClass>
     Public Class BridgeTest
         <TestMethod>

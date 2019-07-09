@@ -2,7 +2,7 @@ Imports Microsoft.VisualStudio.TestTools.UnitTesting
 Imports DesignPatterns.MethodFactory
 Imports DesignPatterns.Shapes
 
-Namespace PocUnitTesting
+Namespace DesignPattern.CreationalTest
     <TestClass>
     Public Class FactoryTest
         Private Fixture As ShapeFactory

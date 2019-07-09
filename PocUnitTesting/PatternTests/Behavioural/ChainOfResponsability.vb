@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.ChainOfResponsability
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.BehaviouralTest
     <TestClass>
     Public Class ChainOfResponsability
         Private Logger As AbstractLogger

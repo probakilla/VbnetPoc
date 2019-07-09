@@ -2,7 +2,7 @@
 Imports DesignPatterns.Car
 Imports DesignPatterns.Visitor
 
-Namespace PocUnitTesting
+Namespace DesignPattern.BehaviouralTest
     <TestClass>
     Public Class VisitorTest
         Private carFixture As Car

@@ -1,7 +1,7 @@
 ﻿Imports DesignPatterns.Memento
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
-Namespace PocUnitTesting
+Namespace DesignPattern.BehaviouralTest
     <TestClass>
     Public Class MementoTest
         Private Const FIRST = "#1"
